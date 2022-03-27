@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+form {
+    width: 200px;
+    margin: 20px -12px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+
+.boton{
+   background: solid rgb(216, 123, 193);
+   margin-bottom: 2px;
+   width: 100px;
+   border-radius: 25%;
+   cursor: pointer;
+   color: rgb(233, 22, 181); 
+   
+
+}
+
+.poke-card {
+    position: relative;
+    height: 650px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 350px;
+    border-radius: 5px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0% auto;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    background-color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.poke-name{
+    font-family:'Poppins', sans-serif;
+}
+
+.poke-card::before {
+    content: '';
+    
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 1px;
+    font-size: 18px;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 6px;
+    border-radius: 4px;
+    border: 1px dotted black;
+    text-align: center;
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 20%;
+}
